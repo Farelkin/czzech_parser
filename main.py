@@ -77,11 +77,11 @@ def write_to_db(data):
     :param data: pandas.DataFrame: data from parser
     :return: None
     """
-    conn = sqlite3.connect('tech_specdb.sqlite3')
+    conn = sqlite3.connect('parser_db.sqlite3')
     cur = conn.cursor()
     cur.execute(create_main_table())
     conn.commit()
-    data.to_sql('parser_data', con=conn, if_exists="append", index=False)
+    data.to_sql('parser_data', con=conn, if_exists='replace', index=False)
 
 
 if __name__ == '__main__':
