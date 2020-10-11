@@ -25,3 +25,11 @@
 <ul>
 <li>8 - Размер террасы - terrace (число)</li>
 </ul>
+
+<h2>Как запустить готовое задание?</h2>
+<ol>
+<li>Скачать проект</li>
+<li>Выполнить <code>pip install -r requirements.txt</code></li>
+<li>Заупустить файл main.py</li>
+</ol>
+<p>Результаты можно посмотреть открыв parser_db.sqlite3</p>
