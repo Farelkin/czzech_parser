@@ -5,12 +5,12 @@ def create_main_table():
     """
     result = """
     CREATE TABLE IF NOT EXISTS parser_data(
-                 ID INT PRIMARY KEY
+                 ID INTEGER PRIMARY KEY
                , floor_plan TEXT
-               , floor INT
+               , floor INTEGER
                , area REAL
                , status TEXT
-               , price INT
+               , price INTEGER
                , type TEXT
                , link TEXT
                , terrace REAL
