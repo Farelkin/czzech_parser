@@ -5,7 +5,7 @@ def create_main_table():
     """
     result = """
     CREATE TABLE IF NOT EXISTS parser_data(
-                 ID INTEGER PRIMARY KEY
+                 ID INTEGER
                , floor_plan TEXT
                , floor INTEGER
                , area REAL
